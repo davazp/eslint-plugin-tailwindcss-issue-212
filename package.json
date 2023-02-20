@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-tailwindcss-issue-212",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss --config tailwindcss.custom.js -o ./dist/output.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davazp/eslint-plugin-tailwindcss-issue-212.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davazp/eslint-plugin-tailwindcss-issue-212/issues"
+  },
+  "homepage": "https://github.com/davazp/eslint-plugin-tailwindcss-issue-212#readme",
+  "dependencies": {
+    "@angular-eslint/template-parser": "^15.2.1",
+    "eslint": "^8.34.0",
+    "eslint-plugin-tailwindcss": "^3.9.0",
+    "tailwindcss": "^3.2.7"
+  }
+}
